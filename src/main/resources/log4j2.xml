@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<configuration status="OFF">  
+  <appenders>  
+    <Console name="Console" target="SYSTEM_OUT">  
+      <!-- <JsonLayout charset="GBK"/> 使用json格式输出-->
+    </Console>
+  </appenders>  
+  <loggers>  
+    <root level="error">  
+      <appender-ref ref="Console"/>
+    </root>  
+  </loggers>  
+</configuration>
